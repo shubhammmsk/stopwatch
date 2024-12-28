@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #000000; */
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231006/pngtree-3d-render-of-a-vibrant-yellow-stopwatch-image_13570226.png);
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #fdda29e9;
+  padding:  40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(255, 247, 6, 0.765);
+  box-shadow: transparent;
+  max-width: 290px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 280px;
+  margin-left: 60px;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+#timerDisplay {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 15px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#startBtn {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+#startBtn:hover {
+  background-color: #218838;
+  color: black;
+}
+
+#stopBtn {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+#stopBtn:hover {
+  background-color: #c82333;
+  color: black;
+}
+
+#resetBtn {
+  background-color: cornflowerblue;
+  color: #ffffff;
+}
+
+#resetBtn:hover {
+  background-color: #490c10;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #cccccc;
+}
